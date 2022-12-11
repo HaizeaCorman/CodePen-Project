@@ -1,0 +1,105 @@
+.page-information-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 500px;
+    color: white;
+    background: -webkit-linear-gradient(180deg, black, rgb(44,44,44));
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.page-information-wrapper > .columns-info {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 20px;
+  
+}
+.page-information-wrapper > .columns-info > .column-right img {
+    height: 450px;
+    width: 100%;
+    box-shadow: 79px -26px 0px -8px rgba(black);
+
+}
+
+
+.page-information-wrapper > .columns-info > .column-left > .information {
+    font-size: 1.4em;
+    height: 300px;
+    width: 100%;
+    text-align: left;
+
+
+}
+
+.page-information-wrapper > .columns-info > .column-left > .information h1 {
+ font-weight: lighter;
+ letter-spacing: 1px;
+ opacity: 0.9;
+ letter-spacing: 1px;
+}
+
+.page-information-wrapper > .columns-info > .column-left > .information span {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.page-information-wrapper > .columns-info > .column-left > .information p {
+    letter-spacing: 1px;
+    width: 100%;
+    color: darkgrey;
+    font-size: 1.3em;
+    -webkit-text-stroke: 0.2px black;
+}
+
+
+.page-information-wrapper > .columns-info > .column-right span {
+    color: rgb(56, 180, 242);
+}
+
+.page-information-wrapper > .columns-info > .column-left > .sign-up-learn-more-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 0px;
+    margin-top: 20px;
+    margin-right: 300px;
+    height: 60px;
+    text-align: left;
+}
+
+.free-btn {
+    background-color: rgb(81, 169, 113);
+    color: black;
+    font-size: 0.9em;
+    font-weight: lighter;
+    padding: 10px 10px;
+    border: 1px solid rgb(81, 169, 113);
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+    font-size: 2em;
+}
+
+.free-btn:active {
+    box-shadow: 5px 5px 30px rgb(81, 169, 113);
+}
+
+.learn-btn {
+    background-color: black;
+    color: white;
+    font-size: 0.9em;
+    font-weight: lighter;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+    font-size: 2em;
+}
+
+.learn-btn:active {
+    box-shadow: 5px 5px 30px rgb(81, 169, 113);
+}
